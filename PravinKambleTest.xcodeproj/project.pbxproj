@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0D4D342084593500D0CE15 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D4D332084593500D0CE15 /* CoreDataManager.swift */; };
+		BD0D4D36208475C100D0CE15 /* MainViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D4D35208475C100D0CE15 /* MainViewViewController.swift */; };
 		BDBDB341207F2214004A96E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBDB340207F2214004A96E9 /* AppDelegate.swift */; };
-		BDBDB343207F2214004A96E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBDB342207F2214004A96E9 /* ViewController.swift */; };
+		BDBDB343207F2214004A96E9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBDB342207F2214004A96E9 /* LoginViewController.swift */; };
 		BDBDB346207F2214004A96E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBDB344207F2214004A96E9 /* Main.storyboard */; };
-		BDBDB349207F2214004A96E9 /* PravinKambleTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDBDB347207F2214004A96E9 /* PravinKambleTest.xcdatamodeld */; };
+		BDBDB349207F2214004A96E9 /* UserData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDBDB347207F2214004A96E9 /* UserData.xcdatamodeld */; };
 		BDBDB34B207F2214004A96E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBDB34A207F2214004A96E9 /* Assets.xcassets */; };
 		BDBDB34E207F2214004A96E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBDB34C207F2214004A96E9 /* LaunchScreen.storyboard */; };
+		BDBDB356207F29BC004A96E9 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBDB355207F29BC004A96E9 /* RegistrationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD0D4D332084593500D0CE15 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		BD0D4D35208475C100D0CE15 /* MainViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewController.swift; sourceTree = "<group>"; };
 		BDBDB33D207F2214004A96E9 /* PravinKambleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PravinKambleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBDB340207F2214004A96E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BDBDB342207F2214004A96E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDBDB342207F2214004A96E9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BDBDB345207F2214004A96E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDBDB348207F2214004A96E9 /* PravinKambleTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PravinKambleTest.xcdatamodel; sourceTree = "<group>"; };
 		BDBDB34A207F2214004A96E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDBDB34D207F2214004A96E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDBDB34F207F2214004A96E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBDB355207F29BC004A96E9 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				BDBDB340207F2214004A96E9 /* AppDelegate.swift */,
-				BDBDB342207F2214004A96E9 /* ViewController.swift */,
+				BD0D4D332084593500D0CE15 /* CoreDataManager.swift */,
+				BDBDB342207F2214004A96E9 /* LoginViewController.swift */,
+				BD0D4D35208475C100D0CE15 /* MainViewViewController.swift */,
+				BDBDB355207F29BC004A96E9 /* RegistrationViewController.swift */,
 				BDBDB344207F2214004A96E9 /* Main.storyboard */,
 				BDBDB34A207F2214004A96E9 /* Assets.xcassets */,
 				BDBDB34C207F2214004A96E9 /* LaunchScreen.storyboard */,
 				BDBDB34F207F2214004A96E9 /* Info.plist */,
-				BDBDB347207F2214004A96E9 /* PravinKambleTest.xcdatamodeld */,
+				BDBDB347207F2214004A96E9 /* UserData.xcdatamodeld */,
 			);
 			path = PravinKambleTest;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDBDB349207F2214004A96E9 /* PravinKambleTest.xcdatamodeld in Sources */,
-				BDBDB343207F2214004A96E9 /* ViewController.swift in Sources */,
+				BDBDB349207F2214004A96E9 /* UserData.xcdatamodeld in Sources */,
+				BDBDB343207F2214004A96E9 /* LoginViewController.swift in Sources */,
+				BDBDB356207F29BC004A96E9 /* RegistrationViewController.swift in Sources */,
+				BD0D4D342084593500D0CE15 /* CoreDataManager.swift in Sources */,
+				BD0D4D36208475C100D0CE15 /* MainViewViewController.swift in Sources */,
 				BDBDB341207F2214004A96E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,13 +340,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BDBDB347207F2214004A96E9 /* PravinKambleTest.xcdatamodeld */ = {
+		BDBDB347207F2214004A96E9 /* UserData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				BDBDB348207F2214004A96E9 /* PravinKambleTest.xcdatamodel */,
 			);
 			currentVersion = BDBDB348207F2214004A96E9 /* PravinKambleTest.xcdatamodel */;
-			path = PravinKambleTest.xcdatamodeld;
+			path = UserData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
